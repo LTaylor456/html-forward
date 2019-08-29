@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Instructions</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  </head>
+  <body>
+    <h1>Instructions</h1>
+    <hr />
+    <ol>
+      <li>Sign up for a GitHub Account</li>
+      <li>
+        Install
+        <a
+          href="https://code.visualstudio.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Visual Studio Code</a
+        >
+      </li>
+      <li>
+        Install
+        <a
+          href="https://nodejs.org/en/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Node.JS</a
+        >
+        LTS Release
+      </li>
+      <li>
+        Install
+        <a
+          href="https://desktop.github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub Desktop</a
+        >
+      </li>
+      <li>Fork this repo</li>
+      <img src="/img/fork.jpg" />
+      <li>Rename the new repo</li>
+      <img src="/img/rename.jpg" />
+      <li>Clone the repo using GitHub Desktop</li>
+      <img src="/img/clone.jpg" />
+      <li>Open the repo in Visual Studio Code</li>
+      <img src="/img/vscode.jpg" />
+      <li>Open Visual Studio Code Terminal and type 'npm install'</li>
+      <img src="img/npminstall.jpg" />
+      <li>
+        From this point you are free to change anything you want inside the
+        /docs folder. To serve the web page locally, type 'npm start' into the
+        terminal and visit
+        <a
+          href="http://localhost:9000"
+          target="_blank"
+          rel="noopener noreferrer"
+          >http://localhost:9000</a
+        >
+      </li>
+    </ol>
+    <h1>Optional Public Serving Steps</h1>
+    <hr />
+    <ol>
+      <li>
+        Enable GitHub Pages on your new repo to use the /docs folder (that's why
+        we use /docs instead of something more standard like /dist)
+      </li>
+      <img src="/img/githubpages.jpg" />
+      <li>
+        Change the CName/Custom Domain value in the UI or in the /docs folder to
+        be a domain that is pointed to your github pages URL ([you].github.io).
+        Also tick the Https box. It may give you an error intially, but will
+        eventually work.
+      </li>
+      <div><img src="/img/dns.jpg" /></div>
+      <div><img src="/img/customdomain.jpg" /></div>
+      <li>
+        You should now (or soon) be able to see this website at whatever URL you
+        typed into the box.
+      </li>
+    </ol>
+  </body>
+</html>

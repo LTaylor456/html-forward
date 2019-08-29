@@ -1,4 +1,3 @@
 # html-starter
 
-- Fork this repo
-- More to Come...
+See https://htmlstarter.dkershner.com/ for this example and instructions
