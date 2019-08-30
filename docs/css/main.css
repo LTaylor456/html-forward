@@ -1,10 +1,20 @@
+body {
+    background-color: #b9edea;
+    height: 1200px;
+}
+
+div {
+  width: 800px;
+}
+
 h1 {
   font-family: 'Changa One', sans-serif;
   margin: 15px 0;
   font-size: 4em;
   font-weight: normal;
   line-height: 0.8em;
-  padding-top: 30px;
+  padding: 20px;
+  background-color: #5b8054;
 }
 
 li {
@@ -15,4 +25,19 @@ li {
 
 img {
   padding-bottom: 30px;
+  width: 800px;
+}
+
+.box {
+  width: 800px;
+  height: 100px;
+  margin-bottom: 10px
+}
+
+.blueBox {
+  background: #627da0;
+}
+
+.greenBox {
+  background: #5b8054;
 }
